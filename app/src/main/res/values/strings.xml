@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Exercise1</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btnlogin">LOGIN</string>
+    <string name="btnregis">Belum terdaftar?</string>
+    <string name="rname">Masukkan Nama</string>
+    <string name="ralamat">Masukkan Alamat</string>
+    <string name="remail">Masukkan Email</string>
+    <string name="rpassword">Masukkan Password</string>
+    <string name="rrepassword">Masukkan Password Lagi</string>
+    <string name="lihatdata">Lihat Data</string>
+    <string name="editdata">Edit Data</string>
+    <string name="datakontak">Data Kontak</string>
+    <string name="detailkontak">Detail Kontak</string>
+    <string name="nama">Nama</string>
+    <string name="notel">Notel</string>
+    <string name="namaitem">Nama Item</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".Home_Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/datakontak"
+        android:layout_gravity="center"
+        android:textSize="14pt"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_bar"
+        app:queryHint="Search"
+        app:iconifiedByDefault="false"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </androidx.appcompat.widget.SearchView>
+    <ListView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listkontak"
+        android:divider="@color/blue"
+        android:dividerHeight="1dp"/>
+</LinearLayout>
